@@ -7,12 +7,14 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using BTLLTQL.Models;
+using BTLLTQL.Models.Process;
 
 namespace BTLLTQL.Controllers
 {
     public class KhachhangsController : Controller
     {
         private BtlDbContext db = new BtlDbContext();
+        private StringProcess strPro = new StringProcess();
 
         // GET: Khachhangs
         public ActionResult Index()
@@ -38,6 +40,19 @@ namespace BTLLTQL.Controllers
         // GET: Khachhangs/Create
         public ActionResult Create()
         {
+            string khachhangKey = "";
+            var Model = db.Khachhang.ToList();
+            if (Model.Count ==0)
+            {
+                khachhangKey = "KH001";
+            }
+            else
+            {
+                var Makhachhang = Model.OrderByDescending(m => m.Makhachhang).FirstOrDefault().Makhachhang;
+                khachhangKey = strPro.AutoGenerateKey(Makhachhang);
+            }
+            // truyền mã sinh tự động về view create
+            ViewBag.Makhachhang = khachhangKey;
             return View();
         }
 
