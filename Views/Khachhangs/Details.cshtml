@@ -1,0 +1,51 @@
+﻿@model BTLLTQL.Models.Khachhang
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Khachhang</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Makhachhang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Makhachhang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tenkhachhang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tenkhachhang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sdt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sdt)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Diachi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Diachi)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Stt }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
