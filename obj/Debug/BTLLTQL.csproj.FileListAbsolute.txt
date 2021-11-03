@@ -82,3 +82,4 @@ C:\Users\DELL\source\repos\BTLLTQL\obj\Debug\BTLLTQL.dll
 C:\Users\DELL\source\repos\BTLLTQL\obj\Debug\BTLLTQL.pdb
 C:\Users\DELL\source\repos\BTLLTQL\obj\Debug\BTLLTQL.Migrations.Khachhang.resources
 C:\Users\DELL\source\repos\BTLLTQL\obj\Debug\BTLLTQL.csproj.GenerateResource.cache
+C:\Users\DELL\source\repos\BTLLTQL\obj\Debug\BTLLTQL.csproj.AssemblyReference.cache
