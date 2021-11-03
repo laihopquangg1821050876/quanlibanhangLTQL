@@ -76,7 +76,6 @@ C:\Users\DELL\source\repos\BTLLTQL\bin\System.Web.WebPages.Razor.xml
 C:\Users\DELL\source\repos\BTLLTQL\bin\Newtonsoft.Json.xml
 C:\Users\DELL\source\repos\BTLLTQL\bin\Antlr3.Runtime.pdb
 C:\Users\DELL\source\repos\BTLLTQL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\DELL\source\repos\BTLLTQL\obj\Debug\BTLLTQL.csproj.AssemblyReference.cache
 C:\Users\DELL\source\repos\BTLLTQL\obj\Debug\BTLLTQL.csproj.CoreCompileInputs.cache
 C:\Users\DELL\source\repos\BTLLTQL\obj\Debug\BTLLTQL.csproj.CopyComplete
 C:\Users\DELL\source\repos\BTLLTQL\obj\Debug\BTLLTQL.dll

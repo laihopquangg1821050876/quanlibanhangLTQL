@@ -136,9 +136,14 @@
       <DependentUpon>202110260216477_Khachhang.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Account.cs" />
     <Compile Include="Models\BtlDbContext.cs" />
+    <Compile Include="Models\Hanghoa.cs" />
     <Compile Include="Models\Khachhang.cs" />
+    <Compile Include="Models\phieunhap.cs" />
+    <Compile Include="Models\Phieuxuat.cs" />
     <Compile Include="Models\Process\StringProcess.cs" />
+    <Compile Include="Models\Tonkho.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
