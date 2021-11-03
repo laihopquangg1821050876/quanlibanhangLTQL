@@ -14,7 +14,7 @@ namespace BTLLTQL.Models
         public virtual DbSet<Account> nameID { get; set; }
         public virtual DbSet<phieunhap> MaPhieunhap { get; set; }
         public virtual DbSet<PhieuXuat> MaPhieuxuat { get; set; }
-        public virtual DbSet<TonKho> STT { get; set; }
+        public virtual DbSet<TonKho> Mahang { get; set; }
 
 
 

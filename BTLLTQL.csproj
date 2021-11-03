@@ -138,6 +138,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Account.cs" />
     <Compile Include="Models\BtlDbContext.cs" />
+    <Compile Include="Models\excelProcess\Excel.cs" />
     <Compile Include="Models\Hanghoa.cs" />
     <Compile Include="Models\Khachhang.cs" />
     <Compile Include="Models\phieunhap.cs" />
